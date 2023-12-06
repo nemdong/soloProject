@@ -10,4 +10,9 @@ public class MainController {
 	public String home() {
 		return "store/home";
 	}
+	
+	@GetMapping("store/login-form")
+	public String login() {
+		return "store/user/login-form";
+	}
 }
